@@ -15,9 +15,11 @@ This takes as input:
 * A character vector of corresponding column names
 
 The function
-1) Reads all 3 files, using fread, which is able to detect the file format by itself in this case
-2) The required columns are selected
-3) Subject & Activity are added to column names vector
-4) The subject & activity vectors are bound to the data
-5) Columns are renamed
-6) Data Table is returned
+1. Reads all 3 files, using fread, which is able to detect the file format by itself in this case
+1. The required columns are selected
+1. Subject & Activity are added to column names vector
+1. The subject & activity vectors are bound to the data
+1. Columns are renamed
+1. Data Table is returned
+
+Test
