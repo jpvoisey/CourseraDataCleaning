@@ -11,35 +11,40 @@ There were 30 subjects (people)
 
 There were 6 activities:
 1. Walking
+
 2. Walking Up (stairs)
+
 3. Walking Down (stairs)
+
 4. Sitting
+
 5. Standing
+
 6. Laying
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 'XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-*tBodyAccXYZ
-*tGravityAccXYZ
-*tBodyAccJerkXYZ
-*tBodyGyroXYZ
-*tBodyGyroJerkXYZ
-*tBodyAccMag
-*tGravityAccMag
-*tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
-*fBodyAccXYZ
-*fBodyAccJerkXYZ
-*fBodyGyroXYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
+* tBodyAccXYZ
+* tGravityAccXYZ
+* tBodyAccJerkXYZ
+* tBodyGyroXYZ
+* tBodyGyroJerkXYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAccXYZ
+* fBodyAccJerkXYZ
+* fBodyGyroXYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
-*Mean: Mean value
-*SD: Standard deviation
+* Mean: Mean value
+* SD: Standard deviation
 
 The complete list of variables of each feature vector is:
 * subject (1 to 30)
