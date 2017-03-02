@@ -10,6 +10,7 @@ Finally the mean of each variable was calculated grouped by subject and activity
 There were 30 subjects (people)
 
 There were 6 activities:
+
 1. Walking
 
 2. Walking Up (stairs)
