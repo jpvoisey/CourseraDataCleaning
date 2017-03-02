@@ -1,8 +1,8 @@
 # Coursera Data Cleaning Project
 ## Accelerometer Data
-## Jeremy Voisey
+### Jeremy Voisey
 
-The following R packages were used:
+#### R packages used:
 * dplyr - to select columns & summarise data
 * data.table - to use fread
 
@@ -14,9 +14,9 @@ This takes as input:
 * A numeric vector of columns required
 * A character vector of corresponding column names
 
-The function
+#### Steps
 
-1. Reads all 3 files, using fread, which is able to detect the file format by itself in this case
+1. Reads all 3 files, using fread, which, in this case, is able to detect the file format by itself
 
 2. The required columns are selected
 
@@ -28,4 +28,24 @@ The function
 
 6. Data Table is returned
 
-Test
+## Main Body of Script
+
+1. Reads original varibale names stored in "features.txt"
+
+2. Creates numeric column vector of variables soring mean and standard deviation
+
+3. Creates corresponding numeric vector of actual names
+
+4. Formats variable names
+
+5. Uses TidyDataTable function to read training data
+
+6. Uses TidyDataTable function to read test data 
+
+7. Merges training and test data
+
+8. Converts activity column (1-6) to factor variable with meaningful labels
+
+9. Finds mean of each variable by subject and group
+
+10. Writes means data table to file
